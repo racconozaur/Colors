@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #131313;    
+}
+
+.colors{
+    width: 100%;
+    /* max-width: 1600px; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.mainfs{
+    align-items: flex-start;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page{
+    width: 100%;
+    max-width: 1500px;
+    box-sizing:border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.color__container{
+ 
+    padding: 50px 20px 30px;
+    display: grid;
+    margin-top: -4px;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-column-gap: 4%;
+    grid-row-gap: 30px;
+}
+
+
+.item{
+    position: relative;
+}
+
+.palete{
+    max-width: 100%;
+    padding-bottom: 100%;
+    border-radius: 54px;
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+.place{
+    position: absolute;
+    width: 100%;
+    transform-origin: top;
+    background: grey;
+    background-color: grey;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+}
+
+.c3{
+    padding-bottom: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.c2{
+    padding-bottom: 75%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+}
+
+.c2:hover{
+    padding-bottom: 85%;
+}
+
+.c1{
+    padding-bottom: 50%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+}
+
+.c1:hover{
+    padding-bottom: 60%;
+}
+
+.c0{
+    padding-bottom: 25%;
+    transition: 0.3 ease;
+    transition-duration: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.c0:hover{
+    padding-bottom: 35%;
+}
+
+.place span {
+    display: block;
+    width: 100%;
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    transition: all .2s;
+    bottom: 0;
+    color: #fff;
+    opacity: 1;
+    border-radius: 0 6px 0 0;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+  }
+
+.place span:hover{
+    opacity: 1;
+    
+}
+
+
+.right{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 30px;
+    background: #1F202B;
+    border-radius: 15px;
+}
+
+.input__txt{
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.style__bar{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
